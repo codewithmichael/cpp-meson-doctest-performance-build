@@ -1,7 +1,7 @@
 project('helloworld', ['cpp'],
   version : '1.0',
   default_options : [
-    # 'warnlevel=3',
+    'warnlevel=3',
     'cpp_std=c++14'
   ]
 )
