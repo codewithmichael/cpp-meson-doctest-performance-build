@@ -2,6 +2,7 @@
 
 
 #include "helloworldframe.hpp"
+#include "greeting.hpp"
 
 
 wxBEGIN_EVENT_TABLE(HelloWorldFrame, wxFrame)
@@ -42,7 +43,8 @@ HelloWorldFrame::HelloWorldFrame(const wxString& title, const wxPoint& pos, cons
     wxBoxSizer* framePanelSizer = new wxBoxSizer(wxHORIZONTAL);
     framePanel->SetSizer(framePanelSizer);
 
-    wxStaticText* label = new wxStaticText(this, wxID_ANY, "Hello, World!");
+    std::string greeting = greeting::generate_greeting();
+    wxStaticText* label = new wxStaticText(this, wxID_ANY, greeting);
     framePanelSizer->AddStretchSpacer();
     framePanelSizer->Add(label, 0, wxALL|wxALIGN_CENTER, 5);
     framePanelSizer->AddStretchSpacer();

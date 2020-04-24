@@ -1,5 +1,6 @@
 executable('helloworld',
   sources : [
+    'greeting.cpp',
     'helloworldapp.cpp',
     'helloworldframe.cpp'
   ],
