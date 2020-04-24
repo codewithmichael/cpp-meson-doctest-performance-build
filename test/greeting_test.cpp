@@ -1,3 +1,10 @@
+// greeting_test.cpp
+//
+// Created: 2020.04.24
+// Author: Michael Spencer
+// License: MIT
+
+
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 

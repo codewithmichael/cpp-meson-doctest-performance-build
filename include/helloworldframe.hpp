@@ -1,4 +1,8 @@
 // helloworldapp.hpp
+//
+// Created: 2020.04.23
+// Author: Michael Spencer
+// License: MIT
 
 
 #ifndef helloworldframe_hpp

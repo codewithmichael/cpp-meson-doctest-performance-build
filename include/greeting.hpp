@@ -1,4 +1,8 @@
 // greeting.hpp
+//
+// Created: 2020.04.24
+// Author: Michael Spencer
+// License: MIT
 
 
 #ifndef greeting_hpp

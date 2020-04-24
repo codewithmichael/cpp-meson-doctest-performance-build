@@ -1,2 +1,14 @@
+# .gitignore
+#
+# Created: 2020.04.23
+# Author: Michael Spencer
+# License: MIT
+
 .vscode/
 build/
+
+*~
+*.swp
+*.swo
+
+.DS_Store

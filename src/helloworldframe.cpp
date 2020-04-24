@@ -1,4 +1,8 @@
 // helloworldapp.cpp
+//
+// Created: 2020.04.23
+// Author: Michael Spencer
+// License: MIT
 
 
 #include "helloworldframe.hpp"
